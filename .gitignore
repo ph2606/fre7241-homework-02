@@ -1,0 +1,26 @@
+# R sessions and private machine state
+.RData
+.Rhistory
+.Ruserdata
+.Rproj.user/
+.Renviron
+.Rprofile
+.DS_Store
+Thumbs.db
+
+# LaTeX and temporary build files; the final PDF is tracked
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.tmp
+.review_*
+.inspect_*
+.github_*
+.publish_*
+.redraw_*
+report/previews/
+

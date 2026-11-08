@@ -1,0 +1,33 @@
+Recorded UTC: 2026-11-08 04:21:12 UTC
+Homework Git revision: Not recorded: the homework folder is not a Git repository.
+Input file SHA-256: 34157238716e2daef2847abad282f2c3191f3095c762131713b3ff7d1189a5c3
+Package scope: six direct analysis/export/verification dependencies plus
+their recursive Depends, Imports, and LinkingTo closure (including base R).
+Object hashes use digest's R serialization version 2; file hashes use exact bytes.
+HighFreq lambda= works by partial matching to the formal lambdaf argument.
+
+R version 4.6.1 (2026-06-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: America/New_York
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] rutils_0.2        dygraphs_1.1.1.6  quantmod_0.4.29.1 TTR_0.24.4.1     
+[5] xts_0.14.3        zoo_1.9-1        
+
+loaded via a namespace (and not attached):
+ [1] digest_0.6.39     fastmap_1.2.0     lattice_0.22-9    magrittr_2.0.5   
+ [5] htmltools_0.5.9   cli_3.6.6         grid_4.6.1        compiler_4.6.1   
+ [9] tools_4.6.1       curl_8.1.0        rlang_1.3.0       htmlwidgets_1.6.4

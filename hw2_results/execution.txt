@@ -1,0 +1,82 @@
+
+Part I.1: inverse volatility positions
+[1] 8352
+[1]   0.0000 201.1293 304.0789 328.5427 473.3764 329.8407
+[1] 167.06351 200.20037  62.29581 123.15738 187.13082 374.07159
+Net, volatility-matched PnLs
+                     SPY
+1993-02-01  0.000000e+00
+1993-02-02  1.466291e-03
+1993-02-03  1.126999e-02
+1993-02-04  4.838007e-03
+1993-02-05 -1.188233e-03
+1993-02-08 -2.533361e-05
+                     SPY
+2026-03-30 -0.0019846533
+2026-03-31  0.0202433402
+2026-04-01  0.0016262928
+2026-04-02  0.0003805344
+2026-04-06  0.0031037104
+2026-04-07  0.0005480172
+              SPY  Strategy
+Sharpe  0.5360428 0.6547844
+Sortino 0.6688807 0.7982237
+
+Part I.2: parallel lambda profile
+[1] 0.5762 0.6733 0.6833 0.6712 0.6548 0.6323 0.6141 0.6116 0.6307
+[1] 0.683285
+[1] 0.3
+
+Part II.1: individual-stock PnLs and Sharpe ranking
+[1] "list"
+[1] 5042    1
+[1] 717
+      POM     CMCSA       MJN      AMCR       SHW      GEHC      SIAL       LIN 
+1.4836582 1.0898003 0.9727812 0.9331945 0.9293320 0.9263486 0.9028866 0.8856656 
+     HCBK      SOLV 
+0.8827039 0.8647813 
+
+Part II.2: mean PnLs
+[1] "xts" "zoo"
+[1] 5042    1
+
+Part II.3: matched in/out-of-sample Sharpe ratios
+[1] 645
+        TMO         RIG         AYI          ED          EG         KKR 
+ 0.60738712  0.08595986  0.08709914  0.54511068  0.53016597 -0.17202964 
+        BIO        CHRW        VIAV         PEG 
+ 0.46856339  0.47589116 -0.57061976  0.64686626 
+[1] 645
+        TMO         RIG         AYI          ED          EG         KKR 
+ 0.12040155  0.09153718 -0.06276958 -0.02987352  0.03374969 -0.04565419 
+        BIO        CHRW        VIAV         PEG 
+ 0.61197377  0.52168887  0.55259987  0.06590306 
+
+Call:
+lm(formula = OutOfSample ~ InSample, data = persistence_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-8.1583 -0.1965  0.0141  0.2397  1.4655 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.10528    0.02164   4.866 1.44e-06 ***
+InSample     0.03289    0.04421   0.744    0.457    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.4956 on 643 degrees of freedom
+Multiple R-squared:  0.0008601,	Adjusted R-squared:  -0.0006938 
+F-statistic: 0.5535 on 1 and 643 DF,  p-value: 0.4572
+
+   Portfolio Period    N    Sharpe CumulativePnL AnnualizedVolatility
+1 All stocks   Full 5042 0.5414626     1.2939858            0.1194425
+2    Top 100   Full 5042 1.3851774     3.2230608            0.1162949
+3 All stocks     IS 2769 0.6653494     0.8833603            0.1208275
+4    Top 100     IS 2769 2.1924866     2.8021326            0.1163133
+5 All stocks    OOS 2273 0.3866265     0.4106254            0.1177485
+6    Top 100    OOS 2273 0.4026810     0.4209282            0.1158906
+
+Completed all six questions. Results saved in:
+ C:/Users/melin/OneDrive/Desktop/nyu/fall 2026/algo portfolio management/Homeworks/Homework_02/hw2_results 

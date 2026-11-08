@@ -1,0 +1,1538 @@
+{
+  "review_date": "2026-11-07",
+  "scope": [
+    "Homeworks",
+    "Tests"
+  ],
+  "excluded": [
+    ".git internals",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "Homeworks\\Homework_01\\.gitattributes",
+      "bytes": 158,
+      "sha256": "d5494ca93f1b588b5cfae7087cf3d22ef5e63ac6226ccc23753bc961e51672ff",
+      "type": "other binary",
+      "status": "metadata inspected"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\.gitignore",
+      "bytes": 387,
+      "sha256": "a0916de9bd038812505c42a2dd4523800b03e487294571bf1f9b3bdddadef891",
+      "type": "text",
+      "characters": 387,
+      "lines": 24,
+      "status": "read full text",
+      "preview": "# R session state and local configuration\n.Rhistory\n.RData\n.Ruserdata\n.Rproj.user/\n.Renviron\n\n# LaTeX intermediates (the compiled PDF is intentionally committed)\nreport/*.aux\nreport/*.log\nreport/*.out"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\.RData",
+      "bytes": 626692,
+      "sha256": "1b0ee92664e3e1933f568e5bb8e74f4659bfefa3312999c35cfcc163c42b011e",
+      "type": "other binary",
+      "status": "metadata inspected"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\.Rhistory",
+      "bytes": 18110,
+      "sha256": "7a77627410866dc1eea819844dc19e58d491ecfb595f8f29f71337c4eaa08f6e",
+      "type": "other binary",
+      "status": "metadata inspected"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\build.ps1",
+      "bytes": 1017,
+      "sha256": "8351c2dbdf297f4878d95e3930f025cac8563f0ff98906a9161781176d8b40fd",
+      "type": "text",
+      "characters": 1017,
+      "lines": 28,
+      "status": "read full text",
+      "preview": "param([switch]$SkipAnalysis)\n\n$ErrorActionPreference = 'Stop'\n$taskRoot = $PSScriptRoot\nPush-Location -LiteralPath $taskRoot\ntry {\n    if (-not $SkipAnalysis) {\n        & Rscript --vanilla hw1_results"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\FRE7241_hw1.R",
+      "bytes": 14543,
+      "sha256": "3ee4b222f2140cbcb33b342d7508a99a186c02a50b31b5b63ce93dc601a47d93",
+      "type": "text",
+      "characters": 14543,
+      "lines": 404,
+      "status": "read full text",
+      "preview": "#################################\n### FRE7241 Homework #1 due at 6PM Tuesday November 3\n#################################\n# Max score 80pts\n\n# Please write in this file the R code needed to perform \n#"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\execution_output.txt",
+      "bytes": 7479,
+      "sha256": "8d85491b64091281a72cf919c15d95f2c8af6d2f59548e8a080e2c2ee946eaaa",
+      "type": "text",
+      "characters": 7479,
+      "lines": 122,
+      "status": "read full text",
+      "preview": "[1]    2 1000\r\n         [,1]      [,2]      [,3]      [,4]       [,5]\r\nVTI 1.3889156 1.1463289 0.7314036 1.5094435 1.11841720\r\nIEF 0.4327528 0.1021709 0.5198690 0.2757054 0.08607574\r\n[1] TRUE\r\n[1] 100"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\portf_wealth_longshort.png",
+      "bytes": 20005,
+      "sha256": "8800f4e8712b8db0fd78ae9fb9398d3867a332766c0540c944d0cd52c2797701",
+      "type": "raster",
+      "dimensions": [
+        1500,
+        1250
+      ],
+      "mode": "P",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\README.md",
+      "bytes": 1723,
+      "sha256": "2c1e6650ee79374630521ee171b2100a6f8e81ce347e0e2926722f00617f097b",
+      "type": "text",
+      "characters": 1723,
+      "lines": 41,
+      "status": "read full text",
+      "preview": "# Homework 1 results\n\nThe submission is [`Panagiotis_Housos_hw1.R`](../Panagiotis_Housos_hw1.R).\nRun it from the repository root:\n\n```sh\nRscript --vanilla Panagiotis_Housos_hw1.R\n```\n\nThe script requi"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\scatter_etfs.png",
+      "bytes": 14417,
+      "sha256": "beaa44613451bdb6a8d0b90ac8a762711ca0e610214d77bdfbbb0856abaf38df",
+      "type": "raster",
+      "dimensions": [
+        1500,
+        1250
+      ],
+      "mode": "P",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\all_results.rds",
+      "bytes": 666917,
+      "sha256": "28edc59e0d877d3f276b21e988c4221a2d8432cdfd6201cae857acc64e255307",
+      "type": "R serialized object",
+      "status": "metadata inspected; source/exported CSV artifacts reviewed"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\annual_windows.csv",
+      "bytes": 1310,
+      "sha256": "cf6e95d176a76e77b714e0792af540d4e18f1aa6266906854e829b290b9457b4",
+      "type": "text",
+      "characters": 1310,
+      "lines": 22,
+      "status": "read full text",
+      "preview": "\"year\",\"start_row\",\"end_row\",\"start_date\",\"end_date\",\"observations\",\"observations_in_named_year\",\"shared_previous_boundary\"\r\n\"2006\",1,183,\"2006-04-11\",\"2006-12-29\",183,183,FALSE\r\n\"2007\",183,434,\"2006-"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\annualized_alphas.csv",
+      "bytes": 1441,
+      "sha256": "1e487352183e4bfe6f03f8c29d805b6ce7e039ccfbcc292233b802907f7793de",
+      "type": "text",
+      "characters": 1441,
+      "lines": 9,
+      "status": "read full text",
+      "preview": "\"ETF\",\"2006\",\"2007\",\"2008\",\"2009\",\"2010\",\"2011\",\"2012\",\"2013\",\"2014\",\"2015\",\"2016\",\"2017\",\"2018\",\"2019\",\"2020\",\"2021\",\"2022\",\"2023\",\"2024\",\"2025\",\"2026\"\r\n\"IEF\",0.0689,0.1137,0.1205,-0.0488,0.1229,0.16"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\bootstrap_overlap.csv",
+      "bytes": 721,
+      "sha256": "204c781e00a938af54146a1c51aee0f76dcc56b11d763cb04b574f318750a895",
+      "type": "text",
+      "characters": 721,
+      "lines": 6,
+      "status": "read full text",
+      "preview": "\"horizon\",\"block_observations\",\"return_intervals\",\"possible_starts\",\"bootstrap_draws\",\"distinct_sampled_starts\",\"duplicate_draws\",\"sampled_pair_overlap_fraction\",\"sampled_mean_overlap_fraction\",\"popul"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2006.csv",
+      "bytes": 1240,
+      "sha256": "b0abb465cca3e554a454c0fcdc009d9f9457f8f000be4cc8f6ac84cc07187c86",
+      "type": "text",
+      "characters": 1240,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",3e-04,7e-04,-0.0016,2e-04,4e-04,-4e-04,3e-04,-2e-04\r\n\"Beta\",0.0326,0.9094,0.0865,0.9956,0.5466,1.2493,0.9259,1.1092\r\n\"Alpha Robust\""
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2007.csv",
+      "bytes": 1253,
+      "sha256": "c96e35e1fb2d8a8cffcc439e0f79d82f687775f57a78a27a22c232b63b8b4ad6",
+      "type": "text",
+      "characters": 1253,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",4e-04,-0.001,0.0015,-8e-04,3e-04,0.001,-0.0011,4e-04\r\n\"Beta\",-0.1955,1.3558,0.2265,0.9905,0.5429,1.2519,1.3505,0.8901\r\n\"Alpha Robus"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2008.csv",
+      "bytes": 1243,
+      "sha256": "63fbd30e77943a80c0c2b2541930f6ca37d8ae260bd844e260987ce37465e1f8",
+      "type": "text",
+      "characters": 1243,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",5e-04,0.001,-0.0024,2e-04,3e-04,3e-04,-4e-04,-4e-04\r\n\"Beta\",-0.1171,1.5139,0.4982,0.9785,0.5435,1.2646,1.5142,0.9235\r\n\"Alpha Robust"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2009.csv",
+      "bytes": 1239,
+      "sha256": "f8114b4b291bbbe2a4c948e7a65d1bc7b820eb7803bc9ab06e11520e4097e142",
+      "type": "text",
+      "characters": 1239,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",-2e-04,-9e-04,-1e-04,3e-04,0,-4e-04,-0.0014,8e-04\r\n\"Beta\",-0.1086,2.0219,1.0301,1.0826,0.4917,1.169,2.082,0.8736\r\n\"Alpha Robust\",-3"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2010.csv",
+      "bytes": 1225,
+      "sha256": "d94d0a1b4f8e54f97041a8a5c93469aeb11cf0e37f62bbd519b09120f9dac3b1",
+      "type": "text",
+      "characters": 1225,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",5e-04,2e-04,-7e-04,3e-04,1e-04,1e-04,-3e-04,-2e-04\r\n\"Beta\",-0.2098,1.2692,1.094,1.0579,0.5685,1.1684,1.263,0.9511\r\n\"Alpha Robust\",7"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2011.csv",
+      "bytes": 1224,
+      "sha256": "0bf2b2c632444f4284707a3317ade58dae1a1acc88a0d467329e795d869a1094",
+      "type": "text",
+      "characters": 1224,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",6e-04,3e-04,0,2e-04,5e-04,1e-04,-8e-04,1e-04\r\n\"Beta\",-0.227,1.0864,0.7604,0.9627,0.5507,1.2214,1.3092,0.8987\r\n\"Alpha Robust\",6e-04,"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2012.csv",
+      "bytes": 1222,
+      "sha256": "bb86d2786f21d9837d09b68025b2b1cb0c386ef6d5d6d4182cedf7ed37881f33",
+      "type": "text",
+      "characters": 1222,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",3e-04,2e-04,-0.0012,3e-04,1e-04,-5e-04,3e-04,0\r\n\"Beta\",-0.2453,0.7477,1.1193,0.9635,0.5481,1.1982,1.1995,1.0199\r\n\"Alpha Robust\",4e-"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2013.csv",
+      "bytes": 1243,
+      "sha256": "95012930dc0f137f675581c3e8e8f6bd9557a918f1c9f1a99971c2219ca05db1",
+      "type": "text",
+      "characters": 1243,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",-2e-04,-0.001,-5e-04,2e-04,0,-3e-04,-2e-04,-1e-04\r\n\"Beta\",-0.0644,0.9486,0.6397,1.0339,0.775,1.0753,1.1706,0.8632\r\n\"Alpha Robust\",0"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2014.csv",
+      "bytes": 1239,
+      "sha256": "7e6cb042340dec8ee844d966f157ec4b7d45efb6ac650bbd6220969995e6543a",
+      "type": "text",
+      "characters": 1239,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",4e-04,8e-04,-0.0024,-1e-04,3e-04,-8e-04,1e-04,2e-04\r\n\"Beta\",-0.1953,0.5164,0.3165,1.0132,0.5701,1.0802,0.9833,0.9808\r\n\"Alpha Robust"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2015.csv",
+      "bytes": 1241,
+      "sha256": "f8fcade4bb054533d6c45a0351bf2ad7835edc28ea26e50e135debf0acec10c5",
+      "type": "text",
+      "characters": 1241,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",1e-04,0,-0.0024,4e-04,2e-04,-0.001,-1e-04,2e-04\r\n\"Beta\",-0.1524,0.7478,0.9677,0.9935,0.7879,1.1792,1.0682,1.0749\r\n\"Alpha Robust\",2e"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2016.csv",
+      "bytes": 1233,
+      "sha256": "9427717d3bc5c5719222c509e80399e4ac3a781b648e9b0e4d2d3be3bde8f91a",
+      "type": "text",
+      "characters": 1233,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",1e-04,0,-3e-04,-2e-04,-1e-04,4e-04,2e-04,0\r\n\"Beta\",-0.1581,0.7567,1.3973,0.968,0.5678,1.3097,1.1885,1.0232\r\n\"Alpha Robust\",2e-04,4e"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2017.csv",
+      "bytes": 1237,
+      "sha256": "beeed7bac10697f37f11d131a1c9ff9929a4cd44f8bcfd6f8bc5f4e1b6143977",
+      "type": "text",
+      "characters": 1237,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",3e-04,-2e-04,-2e-04,1e-04,1e-04,-7e-04,-2e-04,3e-04\r\n\"Beta\",-0.2221,0.5271,0.3836,0.9142,0.4381,0.8311,1.3543,1.1629\r\n\"Alpha Robust"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2018.csv",
+      "bytes": 1240,
+      "sha256": "c6dd291e2c664aacad96228566ca1f837af802a7b2788f373cbb05ca1678976d",
+      "type": "text",
+      "characters": 1240,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",0,-1e-04,-7e-04,3e-04,-2e-04,-6e-04,-4e-04,2e-04\r\n\"Beta\",-0.0945,0.5377,0.6524,1.0783,0.5633,0.9845,1.0038,1.313\r\n\"Alpha Robust\",0,"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2019.csv",
+      "bytes": 1223,
+      "sha256": "203f9c6f258225a1c81783bd5593b34c99954ec8486af7d8d761911c54d6dfe1",
+      "type": "text",
+      "characters": 1223,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",5e-04,5e-04,2e-04,-1e-04,4e-04,-7e-04,0,2e-04\r\n\"Beta\",-0.2096,0.4256,0.8587,1.0143,0.5314,1.0539,1.0514,1.3189\r\n\"Alpha Robust\",6e-0"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2020.csv",
+      "bytes": 1250,
+      "sha256": "03980a480c0a2303f948202cd120c5633277920283abd00aaa3ea6a5c8847f27",
+      "type": "text",
+      "characters": 1250,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",4e-04,-0.001,-0.0052,3e-04,-2e-04,-0.0026,-0.001,6e-04\r\n\"Beta\",-0.1021,1.1119,0.93,0.9485,0.704,1.3961,1.2058,1.1069\r\n\"Alpha Robust"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2021.csv",
+      "bytes": 1232,
+      "sha256": "31af98e4143b42afca59d0a9b714201b6b1b229791dfbb2c87428f4585e2de52",
+      "type": "text",
+      "characters": 1232,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",-1e-04,7e-04,0.0011,-1e-04,3e-04,7e-04,4e-04,0\r\n\"Beta\",-0.0338,0.7227,0.9068,1.1299,0.4134,1.0523,0.9408,1.2381\r\n\"Alpha Robust\",-1e"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2022.csv",
+      "bytes": 1235,
+      "sha256": "26815027438d8a6334377dbe1a61de301b094bbc1c5c9c452c2888ec2f8a5c06",
+      "type": "text",
+      "characters": 1235,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",-6e-04,-5e-04,0.0011,-7e-04,4e-04,0.0025,3e-04,-2e-04\r\n\"Beta\",0.0795,0.8167,0.1888,1.2745,0.4998,0.6282,0.8706,1.2697\r\n\"Alpha Robus"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2023.csv",
+      "bytes": 1254,
+      "sha256": "3334db09f403d36b83f87181c32ed86b6240178eaafb815b39ad5162dd16b12c",
+      "type": "text",
+      "characters": 1254,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",1e-04,-6e-04,-5e-04,2e-04,-5e-04,-6e-04,-5e-04,7e-04\r\n\"Beta\",0.0295,1.0937,0.4015,1.2768,0.461,0.7042,0.9906,1.1651\r\n\"Alpha Robust\""
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2024.csv",
+      "bytes": 1234,
+      "sha256": "7546c9c749419f91cd4c539a0409cdbb21c081510cd8c7e91143264292459341",
+      "type": "text",
+      "characters": 1234,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",-1e-04,-4e-04,4e-04,-1e-04,3e-04,-2e-04,4e-04,-5e-04\r\n\"Beta\",0.0473,0.6374,0.0785,1.2233,0.2402,0.4605,0.7266,1.5129\r\n\"Alpha Robust"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2025.csv",
+      "bytes": 1233,
+      "sha256": "13f28b6bf670d3f9ccf3d2d256547aae18191c26cc21f82ed0b0248fff42fbd0",
+      "type": "text",
+      "characters": 1233,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",3e-04,-2e-04,-6e-04,-4e-04,-1e-04,-1e-04,0,0\r\n\"Beta\",-0.0243,0.5715,0.4763,1.124,0.2405,0.8131,0.8413,1.3308\r\n\"Alpha Robust\",3e-04,"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_2026.csv",
+      "bytes": 1248,
+      "sha256": "14941143db8b18f6c54755af04d4298bede79a28f04d71d0fc2ec6e6f086178f",
+      "type": "text",
+      "characters": 1248,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "\"Statistic\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"Alpha\",0,6e-04,0.0095,-0.001,7e-04,0.0045,-0.001,0\r\n\"Beta\",0.0849,0.515,-1.5587,1.1513,0.0925,-0.0751,0.8529,1.5393\r\n\"Alpha Robust\",0,0.00"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\capm_full.rds",
+      "bytes": 11222,
+      "sha256": "b6fb6138e47e569cebc13f842f385e5618f8ffad5c1c3e9b7b2c297fd1a946f2",
+      "type": "R serialized object",
+      "status": "metadata inspected; source/exported CSV artifacts reviewed"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\console_output.txt",
+      "bytes": 16027,
+      "sha256": "29d72113cd9a3f3b3b19f633c1094262846aeea15208deac30e4aa9d784a33c0",
+      "type": "text",
+      "characters": 16027,
+      "lines": 257,
+      "status": "read full text",
+      "preview": "[1]    2 1000\r\n                   [,1]                [,2]                [,3]\r\nVTI 1.38891556117933401 1.14632893866136509 0.73140356660299410\r\nIEF 0.43275276478177283 0.10217089917362987 0.519868952"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\execution_warnings.txt",
+      "bytes": 60,
+      "sha256": "eafc4a039fb2845f2e2cb87ed108dcd1a6baa4b84eb6437b0554c684272b27ca",
+      "type": "text",
+      "characters": 60,
+      "lines": 1,
+      "status": "read full text",
+      "preview": "M-step did NOT converge. Returning unconverged lM-estimate\r\n"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\hold1192_scenarios.csv",
+      "bytes": 95131,
+      "sha256": "7c13974ea48bdeb2f9b192350b57d68d61635ace5fe956e4065713fcc3733b06",
+      "type": "text",
+      "characters": 95131,
+      "lines": 1001,
+      "status": "read full text",
+      "preview": "\"simulation\",\"start_row\",\"end_row\",\"start_date\",\"end_date\",\"VTI\",\"IEF\",\"portfolio_wealth\"\r\n1,3124,4315,\"2014-12-19\",\"2019-09-16\",0.451262981344825,0.137695754538234,0.250494410265273\r\n2,4335,5526,\"201"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\hold1789_scenarios.csv",
+      "bytes": 94694,
+      "sha256": "bac1d8bdf7e6ed77dbd09bb296eea2c6def24ecc7a2ff866bfb9af867d76c71e",
+      "type": "text",
+      "characters": 94694,
+      "lines": 1001,
+      "status": "read full text",
+      "preview": "\"simulation\",\"start_row\",\"end_row\",\"start_date\",\"end_date\",\"VTI\",\"IEF\",\"portfolio_wealth\"\r\n1,2073,3861,\"2010-10-18\",\"2017-11-22\",0.929808930639256,0.211177693994967,0.510184577712478\r\n2,916,2704,\"2006"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\hold2385_scenarios.csv",
+      "bytes": 94101,
+      "sha256": "d643af26ccca61fad12644caeef3b1e6c938e1111b1d75ea5c4a0e4648dae2a7",
+      "type": "text",
+      "characters": 94101,
+      "lines": 1001,
+      "status": "read full text",
+      "preview": "\"simulation\",\"start_row\",\"end_row\",\"start_date\",\"end_date\",\"VTI\",\"IEF\",\"portfolio_wealth\"\r\n1,3392,5776,\"2016-01-14\",\"2025-07-10\",1.31016695749376,0.0746802397557262,0.641565878424822\r\n2,3439,5823,\"201"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\hold2981_scenarios.csv",
+      "bytes": 93600,
+      "sha256": "1302b9bd16097eb3f4892b050fcaf7697aa7934d4df79d973547b297eaf6c652",
+      "type": "text",
+      "characters": 93600,
+      "lines": 1001,
+      "status": "read full text",
+      "preview": "\"simulation\",\"start_row\",\"end_row\",\"start_date\",\"end_date\",\"VTI\",\"IEF\",\"portfolio_wealth\"\r\n1,2028,5008,\"2010-08-13\",\"2022-06-15\",1.45665061325965,0.233119727483457,0.762010113838049\r\n2,2687,5667,\"2013"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\hold596_scenarios.csv",
+      "bytes": 95544,
+      "sha256": "12213d2cf57470c1cc726126a5b0a39691349fa8a1c2a0889c8a7a3a73ad120e",
+      "type": "text",
+      "characters": 95544,
+      "lines": 1001,
+      "status": "read full text",
+      "preview": "\"simulation\",\"start_row\",\"end_row\",\"start_date\",\"end_date\",\"VTI\",\"IEF\",\"portfolio_wealth\"\r\n1,3777,4372,\"2017-07-26\",\"2019-12-05\",0.263695267100746,0.0929830757318975,0.163436302491911\r\n2,1741,2336,\"20"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\horizon_summary.csv",
+      "bytes": 1056,
+      "sha256": "dccd4c0290da57f24292b71686f01e0c16a0e3dd6ba80c24d47c4650482b30f9",
+      "type": "text",
+      "characters": 1056,
+      "lines": 6,
+      "status": "read full text",
+      "preview": "\"horizon\",\"block_observations\",\"return_intervals\",\"years\",\"VTI_weight\",\"IEF_weight\",\"mean\",\"sd\",\"min\",\"max\",\"mean_over_sd\",\"VTI_IEF_correlation\"\r\n\"hold596\",596,595,2.36111111111111,0.412701788871004,0"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\input_prices_VTI_IEF.csv",
+      "bytes": 284813,
+      "sha256": "5f255961e2d3a0aa85dab1049e92bed2aaae94e904ba2a5ef6c9ebd56a116aa4",
+      "type": "text",
+      "characters": 284813,
+      "lines": 5963,
+      "status": "read full text",
+      "preview": "\"Date\",\"VTI\",\"IEF\"\r\n\"2002-07-26\",26.2028767044592,42.6294737284231\r\n\"2002-07-29\",27.6571363615567,42.130010151704\r\n\"2002-07-30\",27.7947014642551,42.1042646065123\r\n\"2002-07-31\",27.8602086560162,42.4904"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\input_returns_CAPM.csv",
+      "bytes": 973997,
+      "sha256": "e8b6b3ac87e6afd422b30d544f11c9bae3a4d0f32bfc82ff75b49989b9781c44",
+      "type": "text",
+      "characters": 973997,
+      "lines": 5029,
+      "status": "read full text",
+      "preview": "\"Date\",\"VTI\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"2006-04-11\",-0.00907792244896521,0.0018517380761871,-0.00247371802087892,0.00264278527036765,-0.00801548005274499,-0.0094299884390705,-0."
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\last_window_returns.csv",
+      "bytes": 12842,
+      "sha256": "8277bde0723570004e13d414d18d1849f5493ae677b9788eb4ef9315cfb352e6",
+      "type": "text",
+      "characters": 12842,
+      "lines": 67,
+      "status": "read full text",
+      "preview": "\"Date\",\"VTI\",\"IEF\",\"VNQ\",\"USO\",\"XLY\",\"XLP\",\"XLE\",\"XLF\",\"XLK\"\r\n\"2025-12-31\",-0.00766583264339449,-0.00332226219197729,-0.00821567842085891,-0.00835138043241557,-0.00792430221655405,-0.00603223288441601"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\numerical_macros.csv",
+      "bytes": 737,
+      "sha256": "1b93daf68a98b7cf86e7fe8611a19dc4968be3c40a261ebfc0f0c4c22dffafc4",
+      "type": "text",
+      "characters": 737,
+      "lines": 26,
+      "status": "read full text",
+      "preview": "\"name\",\"value\"\r\n\"HWPriceRows\",\"5962\"\r\n\"HWReturnRows\",\"5028\"\r\n\"HWBootSamples\",\"1000\"\r\n\"HWCapmYears\",\"21\"\r\n\"HWPriceStart\",\"2002-07-26\"\r\n\"HWPriceEnd\",\"2026-04-07\"\r\n\"HWReturnStart\",\"2006-04-11\"\r\n\"HWReturn"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\scatter_alphas_2008_2009.csv",
+      "bytes": 206,
+      "sha256": "357f6552a2d066a2e85016466f7d29ffdbd0ca15590c7796c9bf750a65fc6279",
+      "type": "text",
+      "characters": 206,
+      "lines": 9,
+      "status": "read full text",
+      "preview": "\"ETF\",\"alpha_2008\",\"alpha_2009\"\r\n\"IEF\",0.1205,-0.0488\r\n\"VNQ\",0.2848,-0.2019\r\n\"USO\",-0.4475,-0.0128\r\n\"XLY\",0.054,0.0706\r\n\"XLP\",0.0858,0.0086\r\n\"XLE\",0.0866,-0.0996\r\n\"XLF\",-0.0868,-0.304\r\n\"XLK\",-0.106,0."
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\session_info.txt",
+      "bytes": 963,
+      "sha256": "eec03e5e18b73ca2db296df2e92182f566d9cfbe55b8224a5cbd5847ab5d184d",
+      "type": "text",
+      "characters": 963,
+      "lines": 28,
+      "status": "read full text",
+      "preview": "R version 4.6.1 (2026-06-24 ucrt)\r\nPlatform: x86_64-w64-mingw32/x64\r\nRunning under: Windows 11 x64 (build 26200)\r\n\r\nMatrix products: default\r\n  LAPACK version 3.12.1\r\n\r\nlocale:\r\n[1] C\r\nsystem code pag"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\ten_year_overlap.csv",
+      "bytes": 336,
+      "sha256": "6a19d615bd735ae0c0fef85c41fa8ee041da24bbab2f0eaf996493e9ccb4db92",
+      "type": "text",
+      "characters": 336,
+      "lines": 2,
+      "status": "read full text",
+      "preview": "\"block_observations\",\"return_intervals\",\"possible_starts\",\"bootstrap_draws\",\"distinct_sampled_starts\",\"duplicate_draws\",\"sampled_pair_overlap_fraction\",\"sampled_mean_overlap_fraction\",\"population_pair"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\ten_year_scenarios.csv",
+      "bytes": 111807,
+      "sha256": "9199bd1d064fc6e171bc0417f9e70ba9e2c97621bbd4c3e93645903c2652e4c8",
+      "type": "text",
+      "characters": 111807,
+      "lines": 1001,
+      "status": "read full text",
+      "preview": "\"simulation\",\"start_row\",\"end_row\",\"start_date\",\"end_date\",\"VTI\",\"IEF\",\"wealth_equal_weight\",\"wealth_optimal\"\r\n1,1741,4260,\"2009-06-24\",\"2019-06-27\",1.38891556117933,0.432752764781773,0.91083416298055"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\year_endpoints.csv",
+      "bytes": 488,
+      "sha256": "4476319080db2fc49b1762ee4913a4a358381f567fbe087eacf7e99fabb61a1a",
+      "type": "text",
+      "characters": 488,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\"endpoint_number\",\"row\",\"date\"\r\n1,0,\r\n2,183,\"2006-12-29\"\r\n3,434,\"2007-12-31\"\r\n4,687,\"2008-12-31\"\r\n5,939,\"2009-12-31\"\r\n6,1191,\"2010-12-31\"\r\n7,1443,\"2011-12-30\"\r\n8,1693,\"2012-12-31\"\r\n9,1945,\"2013-12-31\""
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\tables\\yearly_rankings.csv",
+      "bytes": 1187,
+      "sha256": "e4e9d08123459bcfa10b06a74cd50cd2f17acb2398916d56d0581a7934176a91",
+      "type": "text",
+      "characters": 1187,
+      "lines": 9,
+      "status": "read full text",
+      "preview": "\"Rank\",\"2006\",\"2007\",\"2008\",\"2009\",\"2010\",\"2011\",\"2012\",\"2013\",\"2014\",\"2015\",\"2016\",\"2017\",\"2018\",\"2019\",\"2020\",\"2021\",\"2022\",\"2023\",\"2024\",\"2025\",\"2026\"\r\n1,\"VNQ\",\"USO\",\"VNQ\",\"XLK\",\"IEF\",\"IEF\",\"IEF\",\""
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\verification.txt",
+      "bytes": 1049,
+      "sha256": "304f76f4f80f4cd8e13dd302de4d8040e72fb19c923a99c842d30dc5d37472ad",
+      "type": "text",
+      "characters": 1049,
+      "lines": 18,
+      "status": "read full text",
+      "preview": "PASS: Return matrices and named horizon outputs have the required shapes\r\nPASS: Paired bootstrap returns equal sums of the underlying daily log returns\r\nPASS: All five optimized weights agree with inv"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\hw1_results\\verify_hw1.R",
+      "bytes": 5737,
+      "sha256": "d88ec77171b5129394eb9273b63f22d51e4e5780d03f62164b2b51a9cd325db8",
+      "type": "text",
+      "characters": 5737,
+      "lines": 130,
+      "status": "read full text",
+      "preview": "# Run from Homework_01: Rscript --vanilla hw1_results/verify_hw1.R\nsolution <- new.env(parent = globalenv())\nwarnings <- character()\nexecution <- withCallingHandlers(\n  capture.output(source(\"Panagiot"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\Panagiotis_Housos_hw1.R",
+      "bytes": 17549,
+      "sha256": "11c6058b939ff4cabf2a7ee48e778f96afc363839f104b18db954c8d3bbcc51d",
+      "type": "text",
+      "characters": 17549,
+      "lines": 468,
+      "status": "read full text",
+      "preview": "#################################\n### FRE7241 Homework #1 due at 6PM Tuesday November 3\n#################################\n# Max score 80pts\n\n# Please write in this file the R code needed to perform \n#"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\portf_wealth_longshort.png",
+      "bytes": 117826,
+      "sha256": "dbec1630c31d01ad302eaa1ad437e2d7c70280ccf58c669a2fbf2a0a9bd9dba9",
+      "type": "raster",
+      "dimensions": [
+        1500,
+        1250
+      ],
+      "mode": "RGBA",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\README.md",
+      "bytes": 4348,
+      "sha256": "228ed55e97285420fe040d911d046cab8497d65894e664a1f10c2c429721b46e",
+      "type": "text",
+      "characters": 4348,
+      "lines": 106,
+      "status": "read full text",
+      "preview": "# FRE7241 Homework 1\n\n**Panagiotis Housos | Algorithmic Portfolio Management | Fall 2026**\n\nStock/bond allocation using a paired historical block bootstrap, followed by\nCAPM statistics and ETF alpha r"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\capm_appendix.tex",
+      "bytes": 1659,
+      "sha256": "9969ca3a9ce41fa98434ad01df26a38b76f3f8a8688f4e79c573442acc8d5c21",
+      "type": "text",
+      "characters": 1659,
+      "lines": 20,
+      "status": "read full text",
+      "preview": "\\wideinput{capm_2007.tex}{Complete CAPM statistics for 2007.}{tab:capm2007}\r\n\\wideinput{capm_2008.tex}{Complete CAPM statistics for 2008.}{tab:capm2008}\r\n\\wideinput{capm_2009.tex}{Complete CAPM statis"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\compile_check.txt",
+      "bytes": 41104,
+      "sha256": "64cbda52b4b01f8b46a5779539d8b6490ea210795478e934eb27595e9afcc4bc",
+      "type": "text",
+      "characters": 41104,
+      "lines": 623,
+      "status": "read full text",
+      "preview": "\ufffd\ufffdT\u0000h\u0000i\u0000s\u0000 \u0000i\u0000s\u0000 \u0000p\u0000d\u0000f\u0000T\u0000e\u0000X\u0000,\u0000 \u0000V\u0000e\u0000r\u0000s\u0000i\u0000o\u0000n\u0000 \u00003\u0000.\u00001\u00004\u00001\u00005\u00009\u00002\u00006\u00005\u00003\u0000-\u00002\u0000.\u00006\u0000-\u00001\u0000.\u00004\u00000\u0000.\u00002\u00005\u0000 \u0000(\u0000M\u0000i\u0000K\u0000T\u0000e\u0000X\u0000 \u00002\u00004\u0000.\u00001\u0000)\u0000 \u0000(\u0000p\u0000r\u0000e\u0000l\u0000o\u0000a\u0000d\u0000e\u0000d\u0000 \u0000f\u0000o\u0000r\u0000m\u0000a\u0000t\u0000=\u0000p\u0000d\u0000f\u0000l\u0000a\u0000t\u0000e\u0000x\u0000.\u0000f\u0000m\u0000t\u0000)\u0000\r\u0000\n\u0000 \u0000r\u0000e\u0000s\u0000"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\export_results.R",
+      "bytes": 18271,
+      "sha256": "81a73e0654c80d9100d674bcae9ccd2af6c9637c6e74064f5ee7723100d5996b",
+      "type": "text",
+      "characters": 18271,
+      "lines": 365,
+      "status": "read full text",
+      "preview": "# Run from Homework_01: Rscript --vanilla report/export_results.R\n\nexport_results <- function() {\n  source_name <- \"Panagiotis_Housos_hw1.R\"\n  if (!file.exists(source_name)) {\n    file_arg <- grep(\"^-"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\figures\\optimal_weights_by_horizon.pdf",
+      "bytes": 4964,
+      "sha256": "24b6cc0e84c3d95b447ed2791fb2c42fa498503baf9b7c03c35a2984dd080f17",
+      "type": "pdf",
+      "pages": 1,
+      "characters": 181,
+      "status": "extracted all page text",
+      "preview": "2\n4\n6\n8\n10\n12\n0.35\n0.40\n0.45\nOptimal VTI Weight Across Holding Periods\nHolding period ((block observations \u2212 1) / 252 years)\nVTI portfolio weight\n0.4127\n0.3597\n0.4161\n0.4588\n0.4323\n"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\figures\\portf_wealth_longshort.pdf",
+      "bytes": 10729,
+      "sha256": "e91bb3745cc771c237f04b61f69b219e4864239c573fefdb98325ca84441577e",
+      "type": "pdf",
+      "pages": 1,
+      "characters": 158,
+      "status": "extracted all page text",
+      "preview": "\u22120.2\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\n0\n2\n4\n6\n8\nWealth Distributions for Long and Short Holding Periods\nwealth (weighted cumulative log return)\nDensity\nLong\nShort\n"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\figures\\scatter_etfs.pdf",
+      "bytes": 5123,
+      "sha256": "aa78d9a917cfe91e96ee2dc31b441ee0625e53d7ee8327561755a4c601fd059f",
+      "type": "pdf",
+      "pages": 1,
+      "characters": 182,
+      "status": "extracted all page text",
+      "preview": "\u22120.6\n\u22120.4\n\u22120.2\n0.0\n0.2\n0.4\n\u22120.4\n\u22120.3\n\u22120.2\n\u22120.1\n0.0\n0.1\n0.2\n0.3\nScatterplot of ETF alphas in 2008 and 2009\n2008 annualized alpha\n2009 annualized alpha\nIEF\nVNQ\nUSO\nXLY\nXLP\nXLE\nXLF\nXLK\n"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\Panagiotis_Housos_HW1_Report.aux",
+      "bytes": 16487,
+      "sha256": "6a80598f0c45c7aef89bca6b987f7b4c03fa0407e8aba6798d7f104de4add580",
+      "type": "other binary",
+      "status": "metadata inspected"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\Panagiotis_Housos_HW1_Report.log",
+      "bytes": 30353,
+      "sha256": "016bdefc4936f2e20f65fcc7ff44f7e40b11f2f3a16988e6de8ad61364f95dd5",
+      "type": "other binary",
+      "status": "metadata inspected"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\Panagiotis_Housos_HW1_Report.out",
+      "bytes": 4248,
+      "sha256": "97de6ff537c123fd30a7f439dfe3edb47e9b3d57157a65064342b2793874323d",
+      "type": "other binary",
+      "status": "metadata inspected"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\Panagiotis_Housos_HW1_Report.pdf",
+      "bytes": 599064,
+      "sha256": "f59f8ec91eb6f93d91d166941d3d2a30cd86dc8a906af5756d834037e0ea8e86",
+      "type": "pdf",
+      "pages": 36,
+      "characters": 77602,
+      "status": "extracted all page text",
+      "preview": "NYU Tandon School of Engineering\nAlgorithmic Portfolio Management\nFRE7241\nHomework 1\nPortfolio Allocation\nand ETF Alpha\nMethods, results, and interpretation\nPanagiotis Housos\nNovember 1, 2026\n\nFRE7241\nHomework 1\nPanagiotis Housos\nAbstract\nA paired historical bootstrap produces 1,000 VTI and IEF cumulative log-return scenarios at each\nholding period. Maximizing the portfolio mean-to-standard-deviat"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\Panagiotis_Housos_HW1_Report.tex",
+      "bytes": 21876,
+      "sha256": "b0a1c9ac0bfe3c45dad42200cc0ccf1126f3789fdf08e576a034ea12e06aca02",
+      "type": "text",
+      "characters": 21876,
+      "lines": 477,
+      "status": "read full text",
+      "preview": "\\documentclass[11pt,letterpaper]{article}\n\\usepackage[T1]{fontenc}\n\\usepackage[utf8]{inputenc}\n\\usepackage{lmodern}\n\\usepackage[margin=0.85in]{geometry}\n\\usepackage{amsmath,amssymb}\n\\usepackage{graphi"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\Panagiotis_Housos_HW1_Report.toc",
+      "bytes": 1680,
+      "sha256": "94735229843eb0c5f25f2f0f6738ce5caea278444cde26993fe2f545dd66cc23",
+      "type": "other binary",
+      "status": "metadata inspected"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\final_page_01.png",
+      "bytes": 28436,
+      "sha256": "7c9fcd9e5d8c076b850066d326230c619eec9f616e0c509c5e9122f243eaf813",
+      "type": "raster",
+      "dimensions": [
+        765,
+        990
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\final_page_02.png",
+      "bytes": 98885,
+      "sha256": "03643dd3ddd2a3bfa5e79b4d9a292b3f8f99f1347cc56640522956acf87ff4f9",
+      "type": "raster",
+      "dimensions": [
+        765,
+        990
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\final_page_04.png",
+      "bytes": 126973,
+      "sha256": "2e60b2112d2b70c03cbc8a99027de7aa31caf4cceb22c514b0c7ff477a287107",
+      "type": "raster",
+      "dimensions": [
+        765,
+        990
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\final_page_07.png",
+      "bytes": 161667,
+      "sha256": "77336f8df43386826894b409623f03d8a4b24b93ddd2308cb30a6b81c78d9545",
+      "type": "raster",
+      "dimensions": [
+        765,
+        990
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\final_page_08.png",
+      "bytes": 152439,
+      "sha256": "cfb573042602db0c2d111dae9ceafe2635102d05e67672fd2ee9a0638eb483ff",
+      "type": "raster",
+      "dimensions": [
+        765,
+        990
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\final_page_09.png",
+      "bytes": 123802,
+      "sha256": "652148a0a09016a4d8743e31e871310312debac5f9f81944ac2a386dd434d701",
+      "type": "raster",
+      "dimensions": [
+        765,
+        990
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\final_page_27.png",
+      "bytes": 96953,
+      "sha256": "b25dea2e2813c6d86c77b9800e99e5f98290ffa95cf3c7d8a7b6ebc7510c9b74",
+      "type": "raster",
+      "dimensions": [
+        765,
+        990
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\final_page_36.png",
+      "bytes": 46649,
+      "sha256": "1e4c37f6fa2bef7930b87ebb5ac654074e81f4ed4264a8f0d46ab262e2caee2e",
+      "type": "raster",
+      "dimensions": [
+        765,
+        990
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_01.png",
+      "bytes": 34730,
+      "sha256": "ac5f6bdadbbba65d0e9a8cd559eab1def1c1d28b7a3dcb80c6fa6a33994e1373",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_02.png",
+      "bytes": 73653,
+      "sha256": "42072683e3d20de9f6bf8bb449896aaab8516097bf4f94f5d8e231be71501fc4",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_03.png",
+      "bytes": 87800,
+      "sha256": "d6d7dc2c8d1a9e60898f8f83019033f388fd4668f5c873370b7341fdf11fc679",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_04.png",
+      "bytes": 84530,
+      "sha256": "df089c7132c5f2465e6c881523d456b80f8dba3cd3961b05e9f9ef3f690231bb",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_05.png",
+      "bytes": 65624,
+      "sha256": "c80b6caaa0f864fcf59bea8e994ba28cf294b95e8ec645bfa3fe0ed84299a22f",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_06.png",
+      "bytes": 68543,
+      "sha256": "cdc8956e1bb1ea23df84ac837942875aee88d26f81c0d16978028c98bc7bce97",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_07.png",
+      "bytes": 26280,
+      "sha256": "8e317c827d6482e0504a4b86fc5ae051534689fd7d8be6361911bdca3559910b",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_08.png",
+      "bytes": 92061,
+      "sha256": "a566802a124454d1304106f92c82c2ad3442f3afc4c38e6a4ae482189ff476a2",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_09.png",
+      "bytes": 86590,
+      "sha256": "8e7b22aabee265ff76e46cdabd66d07e6e9ef00e606859703ee252e4cc0d67a8",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_10.png",
+      "bytes": 80811,
+      "sha256": "01ca2e72f5ec008a185a719b260efbc8f1d9797f29c3eb939a5d0e32ae8808e9",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_11.png",
+      "bytes": 51660,
+      "sha256": "d8bc98b7bfd0661f5010617ab01857d23b7a8d0440aebce4e12d4867ca6443ab",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_12.png",
+      "bytes": 92158,
+      "sha256": "27ce2457aaba7825d8cebe7a56c31c43535fe62bca86f6f3e722ba691d9a3e52",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_13.png",
+      "bytes": 43239,
+      "sha256": "e5003f76e9f39bbc479ea1476f0680736548be493f449eab72e9c662f5f7ecef",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_14.png",
+      "bytes": 64696,
+      "sha256": "f410d7a9d4ee444e70e51a2a232315db2bfc34ef35a66492b9ee546f017346ef",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_15.png",
+      "bytes": 21019,
+      "sha256": "8eddf144c3b15397a92db431563b495aa3a6b520c6d9d7c9402f6bc6bddbb1f8",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_16.png",
+      "bytes": 55273,
+      "sha256": "25f2b456e45600f40b917f086d197a5636c5664c2dbd4ed47a5e15efdfe5f5a6",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_26.png",
+      "bytes": 84424,
+      "sha256": "1a183b0a04e58f46f40fbe6a7ba50d44743c58ae4663cfff0b9316d0033b15c6",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\previews\\page_37.png",
+      "bytes": 33360,
+      "sha256": "c8d225bc0e0157f4291ef66cf8224a41e1361f8a8cc5928e4126533d6adc2017",
+      "type": "raster",
+      "dimensions": [
+        612,
+        792
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\results_macros.tex",
+      "bytes": 1068,
+      "sha256": "3133cd7d70c3c73079b5618fb686783d24aaea91106edc573e2e5b1a59bbfa6a",
+      "type": "text",
+      "characters": 1068,
+      "lines": 26,
+      "status": "read full text",
+      "preview": "% Generated by report/export_results.R; do not edit numerical results.\r\n\\newcommand{\\HWPriceRows}{5962}\r\n\\newcommand{\\HWReturnRows}{5028}\r\n\\newcommand{\\HWBootSamples}{1000}\r\n\\newcommand{\\HWCapmYears}{"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\alphas_2006_2016.tex",
+      "bytes": 1058,
+      "sha256": "9ffe8162d7f3c1e7c29badb25b2f7986e5e586f96306ad57924906ec23825159",
+      "type": "text",
+      "characters": 1058,
+      "lines": 14,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrrrrr}\r\n\\toprule\r\nETF & 2006 & 2007 & 2008 & 2009 & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 \\\\\r\n\\midrule\r\nIEF & 0.0689 & 0.1137 & 0.1205 & -0.0488 & 0.1229 & 0.1639 & 0.0"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\alphas_2017_2026.tex",
+      "bytes": 982,
+      "sha256": "dbcba4b54e29fc97d472ae5ea8d6c548255f47803e4f46b5f48ff54436bf2bc9",
+      "type": "text",
+      "characters": 982,
+      "lines": 14,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrrrr}\r\n\\toprule\r\nETF & 2017 & 2018 & 2019 & 2020 & 2021 & 2022 & 2023 & 2024 & 2025 & 2026 \\\\\r\n\\midrule\r\nIEF & 0.0726 & 0.0061 & 0.1485 & 0.1170 & -0.0249 & -0.1376 & 0.0253 & -"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\annual_windows.tex",
+      "bytes": 1141,
+      "sha256": "0e0d9079e982c4c9efa1a418c6522b19a33f10598c20571af43d3fe382462b16",
+      "type": "text",
+      "characters": 1141,
+      "lines": 27,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrr}\r\n\\toprule\r\nYear & start\\_date & end\\_date & observations & observations\\_in\\_named\\_year \\\\\r\n\\midrule\r\n2006 & 2006-04-11 & 2006-12-29 & 183 & 183 \\\\\r\n2007 & 2006-12-29 & 2007-12"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\bootstrap_overlap.tex",
+      "bytes": 411,
+      "sha256": "72cb8b5cce6d949d2fdde88e5048598fa34acd1d660cb7b7bc55e784aa340089",
+      "type": "text",
+      "characters": 411,
+      "lines": 11,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrr}\r\n\\toprule\r\nBlock obs. & Possible starts & Distinct draws & Overlap (percent) & Mean shared (percent) & Disjoint maximum \\\\\r\n\\midrule\r\n596 & 5367 & 905 & 21.036 & 10.747 & 10 \\\\"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2006.tex",
+      "bytes": 1660,
+      "sha256": "1419b7b4fb6fbb8f4cd2ef43222a836218b062465ab68bc53cca45a8b42d5d26",
+      "type": "text",
+      "characters": 1660,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0003 & 0.0007 & -0.0016 & 0.0002 & 0.0004 & -0.0004 & 0.0003 & -0.0002 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2007.tex",
+      "bytes": 1670,
+      "sha256": "c7bab7ed1d12776703fcf7905f57029d8ea335e179b2f8af26b152e469c076bb",
+      "type": "text",
+      "characters": 1670,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0004 & -0.0010 & 0.0015 & -0.0008 & 0.0003 & 0.0010 & -0.0011 & 0.0004 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2008.tex",
+      "bytes": 1676,
+      "sha256": "8b3226f6902ada06584962bb206c936adc75a4bb0a68ffb1a0381407c0a2014e",
+      "type": "text",
+      "characters": 1676,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0005 & 0.0010 & -0.0024 & 0.0002 & 0.0003 & 0.0003 & -0.0004 & -0.0004 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2009.tex",
+      "bytes": 1678,
+      "sha256": "050335a49a4f40ef8c3183c571f9959634a9ce25ee9823d2d2a17faf740886d9",
+      "type": "text",
+      "characters": 1678,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & -0.0002 & -0.0009 & -0.0001 & 0.0003 & 0.0000 & -0.0004 & -0.0014 & 0.0008 \\\\\r\nBet"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2010.tex",
+      "bytes": 1671,
+      "sha256": "ed7a5e72d156caea0a7cc8d68cbff79acaf279656f5fe7731de7a5c7447c1cf6",
+      "type": "text",
+      "characters": 1671,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0005 & 0.0002 & -0.0007 & 0.0003 & 0.0001 & 0.0001 & -0.0003 & -0.0002 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2011.tex",
+      "bytes": 1667,
+      "sha256": "f33cb99b9429c349698ef4f9ac6a4e1d595ba1fa16c217cfd631429aeb506766",
+      "type": "text",
+      "characters": 1667,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0006 & 0.0003 & -0.0000 & 0.0002 & 0.0005 & 0.0001 & -0.0008 & 0.0001 \\\\\r\nBeta &"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2012.tex",
+      "bytes": 1670,
+      "sha256": "c47cdc1443efec87ccfc802293158aed325c3c3a9c20bef058c73748585fe48d",
+      "type": "text",
+      "characters": 1670,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0003 & 0.0002 & -0.0012 & 0.0003 & 0.0001 & -0.0005 & 0.0003 & -0.0000 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2013.tex",
+      "bytes": 1678,
+      "sha256": "a3eb255ac9a7d27bf1cb3e18bc90a2d92e3e5f25c4ceb697b16e6582629df7b7",
+      "type": "text",
+      "characters": 1678,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & -0.0002 & -0.0010 & -0.0005 & 0.0002 & 0.0000 & -0.0003 & -0.0002 & -0.0001 \\\\\r\nBe"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2014.tex",
+      "bytes": 1670,
+      "sha256": "1ff355e40f04a0f3563ca1a9f07c8be8dbf9150381f1e8d00acd180b51d4014f",
+      "type": "text",
+      "characters": 1670,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0004 & 0.0008 & -0.0024 & -0.0001 & 0.0003 & -0.0008 & 0.0001 & 0.0002 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2015.tex",
+      "bytes": 1669,
+      "sha256": "ee48e58b06ecef4c39654acff0e69654156d5521c8a44dc7dccc85bf1dbd8902",
+      "type": "text",
+      "characters": 1669,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0001 & 0.0000 & -0.0024 & 0.0004 & 0.0002 & -0.0010 & -0.0001 & 0.0002 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2016.tex",
+      "bytes": 1672,
+      "sha256": "7b78a6b52aab7b7477e5f5f427cfe26c62f193bde29f336bfbf44a81bcf61676",
+      "type": "text",
+      "characters": 1672,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0001 & -0.0000 & -0.0003 & -0.0002 & -0.0001 & 0.0004 & 0.0002 & 0.0000 \\\\\r\nBeta"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2017.tex",
+      "bytes": 1672,
+      "sha256": "5f88364f9e683407d54c251a1d940545a0fa8d52fa233a7e212c1743d561a2ce",
+      "type": "text",
+      "characters": 1672,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0003 & -0.0002 & -0.0002 & 0.0001 & 0.0001 & -0.0007 & -0.0002 & 0.0003 \\\\\r\nBeta"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2018.tex",
+      "bytes": 1682,
+      "sha256": "0891f5767b7f2ee978573c2128ec047f77dbf184ccc3fa8a57e5d4e6243f80ff",
+      "type": "text",
+      "characters": 1682,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0000 & -0.0001 & -0.0007 & 0.0003 & -0.0002 & -0.0006 & -0.0004 & 0.0002 \\\\\r\nBet"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2019.tex",
+      "bytes": 1670,
+      "sha256": "41b6dab0948d1138e82c97c02822a18900bd41680f6b83663a7bf66a863c0fe2",
+      "type": "text",
+      "characters": 1670,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0005 & 0.0005 & 0.0002 & -0.0001 & 0.0004 & -0.0007 & -0.0000 & 0.0002 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2020.tex",
+      "bytes": 1681,
+      "sha256": "bf28cdf9e6ccaa274727e142581b13f1dfe57686f04c88a6e1530510ec1aa16f",
+      "type": "text",
+      "characters": 1681,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0004 & -0.0010 & -0.0052 & 0.0003 & -0.0002 & -0.0026 & -0.0010 & 0.0006 \\\\\r\nBet"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2021.tex",
+      "bytes": 1657,
+      "sha256": "fe2d934f329d960f89c9184768c44215947e9d5a9eddf759c0978edd6d7e37af",
+      "type": "text",
+      "characters": 1657,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & -0.0001 & 0.0007 & 0.0011 & -0.0001 & 0.0003 & 0.0007 & 0.0004 & 0.0000 \\\\\r\nBeta &"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2022.tex",
+      "bytes": 1666,
+      "sha256": "330bceafb75907f08605e5f79ab3940a7744611aadb81a5201995e4d16785c4c",
+      "type": "text",
+      "characters": 1666,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & -0.0006 & -0.0005 & 0.0011 & -0.0007 & 0.0004 & 0.0025 & 0.0003 & -0.0002 \\\\\r\nBeta"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2023.tex",
+      "bytes": 1675,
+      "sha256": "a0792dbcf3244a0e8234f9afd48fd163af3637c55ffa18f14663ba6015664e7e",
+      "type": "text",
+      "characters": 1675,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0001 & -0.0006 & -0.0005 & 0.0002 & -0.0005 & -0.0006 & -0.0005 & 0.0007 \\\\\r\nBet"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2024.tex",
+      "bytes": 1671,
+      "sha256": "f6259effb09c64c434a29e9d93018d1402700cea9cd6469753f55f521a94aa6e",
+      "type": "text",
+      "characters": 1671,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & -0.0001 & -0.0004 & 0.0004 & -0.0001 & 0.0003 & -0.0002 & 0.0004 & -0.0005 \\\\\r\nBet"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2025.tex",
+      "bytes": 1678,
+      "sha256": "05cf40aff6e4ab71e39a922f664cc9dfb20d7adab10baeda40002d836eb9470a",
+      "type": "text",
+      "characters": 1678,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0003 & -0.0002 & -0.0006 & -0.0004 & -0.0001 & -0.0001 & 0.0000 & 0.0000 \\\\\r\nBet"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_2026.tex",
+      "bytes": 1680,
+      "sha256": "ed55aa8a013486be2b606d09fe6ae777cea2365a8db09df4b8c0dcc17c43dea0",
+      "type": "text",
+      "characters": 1680,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & -0.0000 & 0.0006 & 0.0095 & -0.0010 & 0.0007 & 0.0045 & -0.0010 & -0.0000 \\\\\r\nBeta"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\capm_first_year.tex",
+      "bytes": 1660,
+      "sha256": "1419b7b4fb6fbb8f4cd2ef43222a836218b062465ab68bc53cca45a8b42d5d26",
+      "type": "text",
+      "characters": 1660,
+      "lines": 23,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrr}\r\n\\toprule\r\nStatistic & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\nAlpha & 0.0003 & 0.0007 & -0.0016 & 0.0002 & 0.0004 & -0.0004 & 0.0003 & -0.0002 \\\\\r\nBeta "
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\horizon_summary.tex",
+      "bytes": 544,
+      "sha256": "770a8a7034040d86b4430e675c9eeddb593c732c48db4781e966f5808a5d7e76",
+      "type": "text",
+      "characters": 544,
+      "lines": 11,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrr}\r\n\\toprule\r\nBlock obs. & Years & VTI & Mean & SD & Min & Max & Mean/SD \\\\\r\n\\midrule\r\n596 & 2.361 & 0.412702 & 0.144572 & 0.094930 & -0.136319 & 0.374404 & 1.5229 \\\\\r\n1192 & 4."
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\last_window_head.tex",
+      "bytes": 958,
+      "sha256": "2818f2538d763228de47550782c441be221acd353e8cb570fd05c6e880d6f693",
+      "type": "text",
+      "characters": 958,
+      "lines": 12,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrrr}\r\n\\toprule\r\nDate & VTI & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\n2025-12-31 & -0.00766583 & -0.00332226 & -0.00821568 & -0.00835138 & -0.00792430 & -0.00"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\last_window_tail.tex",
+      "bytes": 947,
+      "sha256": "22fc0e689e5a17a287d7d1c2a62531c69246b21034944cfa593134141db5f390",
+      "type": "text",
+      "characters": 947,
+      "lines": 12,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrrr}\r\n\\toprule\r\nDate & VTI & IEF & VNQ & USO & XLY & XLP & XLE & XLF & XLK \\\\\r\n\\midrule\r\n2026-03-30 & -0.00451367 & 0.00705749 & 0.00378593 & 0.04433273 & -0.00018927 & 0.001222"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\rankings_2006_2016.tex",
+      "bytes": 741,
+      "sha256": "a674e9f24b9164819e94931e375310694c425965f246d9b938ab472840ca4021",
+      "type": "text",
+      "characters": 741,
+      "lines": 14,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrrrrr}\r\n\\toprule\r\nRank & 2006 & 2007 & 2008 & 2009 & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 \\\\\r\n\\midrule\r\n1 & VNQ & USO & VNQ & XLK & IEF & IEF & IEF & XLY & VNQ & XLY &"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\rankings_2017_2026.tex",
+      "bytes": 685,
+      "sha256": "9f5fbb70f0ce690c74ac9d265e16ebd14fdd478ade868ffcd989d183b2147111",
+      "type": "text",
+      "characters": 685,
+      "lines": 14,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrrrrrrr}\r\n\\toprule\r\nRank & 2017 & 2018 & 2019 & 2020 & 2021 & 2022 & 2023 & 2024 & 2025 & 2026 \\\\\r\n\\midrule\r\n1 & IEF & XLY & IEF & XLK & USO & XLE & XLK & XLF & IEF & USO \\\\\r\n2 & X"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\scatter_alphas_2008_2009.tex",
+      "bytes": 322,
+      "sha256": "f79e94523d0671f4713cf9f277d9e86c576efdcc80fc51799e3c59f0a449065a",
+      "type": "text",
+      "characters": 322,
+      "lines": 14,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrr}\r\n\\toprule\r\nETF & alpha\\_2008 & alpha\\_2009 \\\\\r\n\\midrule\r\nIEF & 0.1205 & -0.0488 \\\\\r\nVNQ & 0.2848 & -0.2019 \\\\\r\nUSO & -0.4475 & -0.0128 \\\\\r\nXLY & 0.0540 & 0.0706 \\\\\r\nXLP & 0.0858 &"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\short_returns_first5.tex",
+      "bytes": 248,
+      "sha256": "592465f58f64a6ce48638fc89567b251cc3a6a17b8abcad8302edd51d2465166",
+      "type": "text",
+      "characters": 248,
+      "lines": 8,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrr}\r\n\\toprule\r\nETF & 1 & 2 & 3 & 4 & 5 \\\\\r\n\\midrule\r\nVTI & 0.26369527 & 0.36955786 & 0.14826377 & 0.21959967 & 0.28329944 \\\\\r\nIEF & 0.09298308 & 0.23527189 & 0.14635179 & -0.201707"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\short_wealth_first5.tex",
+      "bytes": 201,
+      "sha256": "fc4d667a97f495362392da9f78fdace4c2db3758c67c6e31c5aa5b3f4f8a9ead",
+      "type": "text",
+      "characters": 201,
+      "lines": 7,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrr}\r\n\\toprule\r\n & Draw 1 & Draw 2 & Draw 3 & Draw 4 & Draw 5 \\\\\r\n\\midrule\r\nOptimal & 0.16343630 & 0.29069195 & 0.14714087 & -0.02783308 & 0.24141838 \\\\\r\n\\bottomrule\r\n\\end{tabular}\r"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\ten_year_returns_first5.tex",
+      "bytes": 247,
+      "sha256": "127dba41829586491035cd11ff76cf7f592d00d8213f930cda35166975f1a3fc",
+      "type": "text",
+      "characters": 247,
+      "lines": 8,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrr}\r\n\\toprule\r\nETF & 1 & 2 & 3 & 4 & 5 \\\\\r\n\\midrule\r\nVTI & 1.38891556 & 1.14632894 & 0.73140357 & 1.50944354 & 1.11841720 \\\\\r\nIEF & 0.43275276 & 0.10217090 & 0.51986895 & 0.2757054"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\report\\tables\\wealth_first5.tex",
+      "bytes": 205,
+      "sha256": "ff9d5a9b0ab6c44b3012736fe02a0fb6ae94a60cfd3935ed641d442d48a8f1d7",
+      "type": "text",
+      "characters": 205,
+      "lines": 7,
+      "status": "read full text",
+      "preview": "\\begin{tabular}{lrrrrr}\r\n\\toprule\r\n & Draw 1 & Draw 2 & Draw 3 & Draw 4 & Draw 5 \\\\\r\n\\midrule\r\nEqual weight & 0.91083416 & 0.62424992 & 0.62563626 & 0.89257449 & 0.60224647 \\\\\r\n\\bottomrule\r\n\\end{tabul"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\reproducibility\\data-manifest.csv",
+      "bytes": 1349,
+      "sha256": "2b01e91e389df9993d8cd7c47663ba63fcb5af6d05f211d1d12d7207087acc44",
+      "type": "text",
+      "characters": 1349,
+      "lines": 5,
+      "status": "read full text",
+      "preview": "\"dataset\",\"source\",\"source_version\",\"source_commit\",\"symbols\",\"preprocessing\",\"rows\",\"columns\",\"first_date\",\"last_date\",\"hash_method\",\"sha256\"\r\n\"part_i_prices\",\"rutils::etfenv\",\"0.2\",\"131a2b9b950c35a9"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\reproducibility\\package-versions.csv",
+      "bytes": 2500,
+      "sha256": "554b505ef0fb9f71fb0a6d41c71d161c85e2d9cd4355a22e0740554737e922c8",
+      "type": "text",
+      "characters": 2500,
+      "lines": 54,
+      "status": "read full text",
+      "preview": "\"package\",\"version\",\"repository\",\"remote_type\",\"remote_username\",\"remote_repo\",\"remote_ref\",\"remote_sha\"\r\n\"DEoptimR\",\"1.2-2\",\"CRAN\",\"\",\"\",\"\",\"\",\"\"\r\n\"PerformanceAnalytics\",\"2.1.0\",\"\",\"github\",\"braveroc"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\reproducibility\\README.md",
+      "bytes": 1231,
+      "sha256": "d68fb40753d047d1d47be062bf221605af202f1e71f3fc4efdb042c000ca4f94",
+      "type": "text",
+      "characters": 1231,
+      "lines": 31,
+      "status": "read full text",
+      "preview": "# Reference environment\n\n- `package-versions.csv`: versions of the four direct packages and their\n  dependencies, with GitHub commit metadata where available.\n- `session-info.txt`: R version, platform"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\reproducibility\\record_environment.R",
+      "bytes": 3444,
+      "sha256": "c675ce338e8150c413451f543e7b59690752f499d56ed8578bf089e568a48cb3",
+      "type": "text",
+      "characters": 3444,
+      "lines": 96,
+      "status": "read full text",
+      "preview": "# Run from the repository root: Rscript --vanilla reproducibility/record_environment.R\n\nlibrary(rutils)\nlibrary(PerformanceAnalytics)\n\nrequired_packages <- c(\"rutils\", \"PerformanceAnalytics\", \"RobStat"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\reproducibility\\session-info.txt",
+      "bytes": 945,
+      "sha256": "32f7b9603684761fa63d00a4028c712aee5c8067625b36cc094bcb3e3e5f6095",
+      "type": "text",
+      "characters": 945,
+      "lines": 28,
+      "status": "read full text",
+      "preview": "R version 4.6.1 (2026-06-24 ucrt)\r\nPlatform: x86_64-w64-mingw32/x64\r\nRunning under: Windows 11 x64 (build 26200)\r\n\r\nMatrix products: default\r\n  LAPACK version 3.12.1\r\n\r\nlocale:\r\n[1] C\r\nsystem code pag"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\scatter_etfs.png",
+      "bytes": 96202,
+      "sha256": "5b58c46c9f3003015552c017b13c109a367c8937cbd1e4b5b16a2a84d6f47997",
+      "type": "raster",
+      "dimensions": [
+        1500,
+        1250
+      ],
+      "mode": "RGBA",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_01\\setup.R",
+      "bytes": 1459,
+      "sha256": "ba38121dac4fea9a484f0b859e61b75bf24707ba8af0668db1c1ba83de85ff13",
+      "type": "text",
+      "characters": 1459,
+      "lines": 46,
+      "status": "read full text",
+      "preview": "# Install missing packages; retain existing installations.\n# Run from the repository root with: Rscript --vanilla setup.R\n\noptions(repos = c(CRAN = \"https://cloud.r-project.org\"))\n\ngithub_packages <- "
+    },
+    {
+      "path": "Homeworks\\Homework_02\\FRE7241_hw2.R",
+      "bytes": 5910,
+      "sha256": "ba8f88e819efe1deff28c925f473fdd7d6cd90449da8ae0103008016de4cdf09",
+      "type": "text",
+      "characters": 5910,
+      "lines": 246,
+      "status": "read full text",
+      "preview": "#################################\n### FRE7241 Homework #2 due at 6PM Tuesday November 10\n#################################\n# Max score 60pts\n\n# Please write in this file the R code needed to perform t"
+    },
+    {
+      "path": "Homeworks\\Homework_02\\strat_hampel_mean.png",
+      "bytes": 74109,
+      "sha256": "169a8a982dcf798740eb723c018e4aae202eda330371d75a86256479164524c6",
+      "type": "raster",
+      "dimensions": [
+        1746,
+        1246
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_02\\strat_hampel_scatter.png",
+      "bytes": 251487,
+      "sha256": "a034578ee4fb1b69a55efa0eab74d414bba529e257fe47d91f1a35e24acec550",
+      "type": "raster",
+      "dimensions": [
+        1500,
+        1250
+      ],
+      "mode": "RGBA",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_02\\strat_hampel_single.png",
+      "bytes": 103814,
+      "sha256": "91e4861bd30a942008133510bbb96a98d128a24e74b45a6eadadeee1ef7abd26",
+      "type": "raster",
+      "dimensions": [
+        1746,
+        1246
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_02\\strat_hampel_top.png",
+      "bytes": 63539,
+      "sha256": "15e38633e8842740a374ad5a102f4b4f22b1f2e0431f8ad3e5bb8a366358d368",
+      "type": "raster",
+      "dimensions": [
+        1746,
+        1246
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_02\\strat_voltiming_ema.png",
+      "bytes": 89477,
+      "sha256": "250b009d21c2b4af3069db7ec24b160fe2e18f42b31cf10ca7966f8992292353",
+      "type": "raster",
+      "dimensions": [
+        1746,
+        1246
+      ],
+      "mode": "RGB",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    },
+    {
+      "path": "Homeworks\\Homework_02\\strat_voltiming_profile_ema.png",
+      "bytes": 118011,
+      "sha256": "f43b20b6fec9818aa7818ecb55df63a772d2604b66e4dc58e8bb530cb29ecaaa",
+      "type": "raster",
+      "dimensions": [
+        1500,
+        1250
+      ],
+      "mode": "RGBA",
+      "status": "inspected metadata; relevant HW2 images visually inspected separately"
+    }
+  ]
+}

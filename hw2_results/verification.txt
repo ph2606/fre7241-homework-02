@@ -1,0 +1,73 @@
+Homework 2 independent verification
+Inputs: data/hw2_inputs.rds
+Results: hw2_results/results.rds
+
+PASS 01: Required numerical/time-series packages are available
+PASS 02: Frozen input and saved result files exist
+PASS 03: SPY input is finite and has sufficient observations
+PASS 04: Independent EMA mean recurrence matches a known probe
+PASS 05: EMA variance uses squared decay and first squared difference
+PASS 06: SPY EMA means match independent recurrence
+PASS 07: SPY EMA variances match independent recurrence
+PASS 08: Saved EMA volatilities match independent recurrence
+PASS 09: Inverse volatility positions are lagged one day
+PASS 10: Costs equal half-spread times absolute position change
+PASS 11: Net PnLs subtract turnover costs before normalization
+PASS 12: Saved full-sample volatility scale is correct
+PASS 13: Saved normalized timing PnLs match independent arithmetic
+PASS 14: Timing volatility equals SPY volatility
+PASS 15: First timing holding and PnL are flat
+PASS 16: Timing PnL dates align with SPY returns
+PASS 17: Sharpe and course Sortino match independent formulas
+PASS 18: Saved PSOCK lambda profile matches independent sequential recurrence
+PASS 19: Best Sharpe is profile maximum
+PASS 20: Best lambda is associated with the maximum Sharpe
+PASS 21: EMA prefix invariant at observation 100
+PASS 22: Future SPY changes preserve EMA history through 100
+PASS 23: EMA prefix invariant at observation 4176
+PASS 24: Future SPY changes preserve EMA history through 4176
+PASS 25: EMA prefix invariant at observation 8332
+PASS 26: Future SPY changes preserve EMA history through 8332
+PASS 27: Saved stock dimensions and lookback match frozen inputs
+PASS 28: NXPI is present in the frozen universe
+PASS 29: NXPI uses logarithmic prices
+PASS 30: NXPI trailing medians match base median loop
+PASS 31: NXPI scaled trailing MAD matches base mad after startup
+PASS 32: NXPI independent base loop: zscores
+PASS 33: NXPI independent base loop: signal
+PASS 34: NXPI independent base loop: positions
+PASS 35: NXPI independent base loop: returns
+PASS 36: NXPI independent base loop: pnl
+PASS 37: NXPI PnL dates follow its own available price history
+PASS 38: Vectorized median-of-three reference agrees with transparent NXPI loop
+PASS 39: NXPI buy/hold and strategy performance ratios match independently
+PASS 40: NXPI PnL prefix remains invariant when later data are absent
+PASS 41: Future stock-price perturbation preserves installed trailing medians
+PASS 42: Future stock-price perturbation preserves installed trailing MAD
+
+Recomputing every eligible stock from independent median-of-three arithmetic...
+PASS 43: All-stock aggregation aligns by calendar date
+PASS 44: Available-stock counts match independently aligned histories
+PASS 45: Every all-stock mean PnL matches independent date-aligned arithmetic
+PASS 46: Full-sample stock Sharpe ranking matches independent universe calculation
+PASS 47: Every individual-stock Sharpe matches independent PnLs
+PASS 48: 2016/2017 sample split is disjoint and exhaustive
+PASS 49: IS/OOS cohorts match the same finite-history stock symbols in the same order
+PASS 50: All matched in-sample Sharpes recompute independently
+PASS 51: All matched out-of-sample Sharpes recompute independently
+PASS 52: Saved selection ranking uses all valid in-sample stock histories
+PASS 53: In-sample selection ranking values are correct
+PASS 54: Top 100 are selected only from independently recomputed IS Sharpes
+PASS 55: Top-100 portfolio retains the correctly aligned calendar
+PASS 56: Every top-100 portfolio PnL matches independent aligned arithmetic
+PASS 57: Transparent median/mad loop validates full history of NXPI
+PASS 58: Transparent median/mad loop validates full history of TMO
+PASS 59: Transparent median/mad loop validates full history of LW
+PASS 60: Transparent median/mad loop validates full history of MRNA
+PASS 61: Reported IS/OOS correlation matches independent stock returns
+PASS 62: Scatter regression coefficients match independent IS/OOS calculations
+PASS 63: All portfolio-period sample sizes, Sharpes, cumulative PnLs and volatilities recompute
+
+SUCCESS: 63 independent checks passed.
+Verified 8352 SPY dates, 5042 stock dates, 717 eligible stocks and 645 matched IS/OOS stocks.
+EMA causality checks exclude the package's two-observation startup; full-sample scaling is ex-post normalization.

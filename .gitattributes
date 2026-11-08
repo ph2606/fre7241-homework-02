@@ -1,0 +1,9 @@
+* text=auto
+*.R text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.csv text eol=lf
+*.ps1 text eol=crlf
+*.pdf binary
+*.png binary
+*.rds binary
